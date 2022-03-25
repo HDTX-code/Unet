@@ -3,7 +3,6 @@ import sys
 import time
 import cv2
 import numpy as np
-from unet import Unet
 from PIL import Image
 from tqdm import tqdm
 import torch
