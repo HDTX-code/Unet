@@ -23,7 +23,9 @@ from torch import nn
 
 from nets.unet import Unet as unet
 from unet import UnetAll
-from utils.utils import cvtColor, preprocess_input, resize_image
+from utils.utils import cvtColor
+from utils.utils import preprocess_input
+from utils.utils import resize_image
 from utils.utils_metrics import compute_mIoU, show_results
 
 
