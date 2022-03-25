@@ -23,7 +23,7 @@ class unetUp(nn.Module):
 
 
 class Unet(nn.Module):
-    def __init__(self, num_classes=21, pretrained=False, backbone='vgg'):
+    def __init__(self, num_classes=2, pretrained=False, backbone='vgg'):
         super(Unet, self).__init__()
         if backbone == 'vgg':
             self.vgg = VGG16(pretrained=pretrained)
