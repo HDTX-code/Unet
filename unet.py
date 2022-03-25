@@ -4,6 +4,7 @@ from utils.utils import cvtColor
 from utils.utils import preprocess_input
 from utils.utils import resize_image
 
+
 # --------------------------------------------#
 #   使用自己训练好的模型预测需要修改2个参数
 #   model_path和num_classes都需要修改！
@@ -37,7 +38,7 @@ class UnetAll(object):
         #   mix_type = 1的时候代表仅保留生成的图
         #   mix_type = 2的时候代表仅扣去背景，仅保留原图中的目标
         # -------------------------------------------------#
-        "mix_type": 0,
+        "mix_type": 2,
         # --------------------------------#
         #   是否使用Cuda
         #   没有GPU可以设置成False
