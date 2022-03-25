@@ -1,5 +1,8 @@
 from __init__ import *
 
+from utils.utils import cvtColor
+from utils.utils import preprocess_input
+from utils.utils import resize_image
 
 # --------------------------------------------#
 #   使用自己训练好的模型预测需要修改2个参数
