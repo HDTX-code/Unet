@@ -1,4 +1,5 @@
-from __init__ import *
+from nets import *
+from utils import *
 
 '''
 进行指标评估需要注意以下几点：

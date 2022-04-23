@@ -2,7 +2,11 @@
 #   将单张图片预测、摄像头检测和FPS测试功能
 #   整合到了一个py文件中，通过指定mode进行模式的修改。
 # ----------------------------------------------------#
-from __init__ import *
+import time
+
+from nets import *
+from unet import UnetAll
+from utils import *
 
 if __name__ == "__main__":
     # -------------------------------------------------------------------------#

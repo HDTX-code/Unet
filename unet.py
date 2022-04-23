@@ -1,8 +1,9 @@
-from __init__ import *
+import colorsys
+import copy
+import time
 
-from utils.utils import cvtColor
-from utils.utils import preprocess_input
-from utils.utils import resize_image
+from nets import *
+from utils import *
 
 
 # --------------------------------------------#

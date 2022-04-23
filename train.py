@@ -1,4 +1,9 @@
-from __init__ import *
+from torch import optim
+from torch.backends import cudnn
+from torch.utils.data import DataLoader
+
+from nets import *
+from utils import *
 '''
 训练自己的语义分割模型一定需要注意以下几点：
 1、训练前仔细检查自己的格式是否满足要求，该库要求数据集格式为VOC格式，需要准备好的内容有输入图片和标签
